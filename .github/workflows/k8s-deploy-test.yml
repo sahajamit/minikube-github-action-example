@@ -2,9 +2,9 @@ name: "Test Selenium Grid 4 deployment on Minikube Cluster"
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master]
+    branches: [main]
 
 jobs:
   deploy:
