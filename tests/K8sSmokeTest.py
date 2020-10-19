@@ -3,7 +3,6 @@ import time
 import json
 import sys
 import time
-
 try:
     from urllib2 import urlopen
 except ImportError:
